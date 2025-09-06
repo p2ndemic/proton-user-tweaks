@@ -5,7 +5,8 @@ user_settings = {
     #By default, logs are saved to $HOME/steam-<STEAM_GAME_ID>.log, overwriting any previous log with that name.
     #Log directory can be overridden with $PROTON_LOG_DIR.
 
-    ###### Logging ######
+# Logging
+# =============================================
 
     # Enable logging
     "PROTON_LOG": "0",
