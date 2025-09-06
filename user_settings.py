@@ -136,7 +136,7 @@ user_settings = {
 
     # Enable DXVK's HUD; devinfo|fps|frametimes|submissions|drawcalls|pipelines|descriptors|memory|allocations|gpuload|version|api|cs|compiler|samplers|ffshaders|swvp|scale=x|opacity=y
     # DXVK_HUD=1 has the same effect as DXVK_HUD=devinfo,fps, and DXVK_HUD=full enables all available HUD elements
-#   "DXVK_HUD": "fps,frametimes,api,compiler",
+#   "DXVK_HUD": "fps,frametimes,gpuload,api,compiler",
 
     # DXVK pipeline cache; "0" disable|"/some/directory" Defaults to the current working directory of the application
 #   "DXVK_STATE_CACHE": "0",
